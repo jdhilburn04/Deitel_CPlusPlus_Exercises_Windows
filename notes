@@ -1,0 +1,7 @@
+switches can only use expressions and not operation statements
+
+static_cast Operator
+- double averageReps {static_cast<double>(totalReps) / (set - 1)};
+1. Converts integer value into temporary copy of the variable in the parenthesis to the type in angle brackets
+2. The copy gets promoted and is read in the calculation by the compiler
+- Available for any primitive data type
