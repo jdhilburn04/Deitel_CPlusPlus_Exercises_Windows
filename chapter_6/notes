@@ -1,0 +1,44 @@
+Objectives:
+- Data structures: Collection of related items
+        Referred to as containers in C++ standard library
+        Containers in C++ (Discussed in this chapter)
+            Arrays
+            Vectors
+
+
+- Class template 'array'
+        Array is a fixed size collection of related, indexable data items
+
+        c = {-45, 6, 0, 72, 1543}
+        c.size() = 5
+        c[4] = 72
+
+        In loop control statements (int i = 0) use the size_t type (size_t i{0}) instead of int
+
+
+- Declare, Initialize, & Refer elements of arrays
+        1. Declare
+        std::array<type, arraySize> arrayName
+
+        2. Initialize
+        arrayName = {1, 2, 3, 4, 5}     <----- Initializer list (Must be <= size of array)
+
+- Pass arrays to functions
+
+- Sorting and Searching Arrays
+        Sorting data: Placing it in ascending or descending order
+        binary_search is built in to C++ and determines whether a value is in the array
+
+
+- Declare and manipulate multidimensional arrays
+        1. Declare
+        constexpr size_t rows{y}
+        constexpr size_t columns{x}
+
+
+- Use ranges (In functional style programming)
+        Range: Collection of elements that you can iterate over (ie. array)
+
+- Vector
+        Variable size collection of related items
+        Size can change depending on the size of the variable
